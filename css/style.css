@@ -23,6 +23,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: var(--white);
+  background-color: var(--bg-color);
 }
 
 img {
@@ -31,7 +32,7 @@ img {
 
 a {
   text-decoration: none;
-  color: transparent;
+  color: inherit;
 }
 
 ol,
@@ -59,4 +60,45 @@ ul {
   clip: rect(0, 0, 0, 0);
   border: 0;
   white-space: nowrap;
+}
+
+/* ! HEADER */
+
+.header {
+  background: url(../img/header-bg.webp) no-repeat top / cover;
+  height: 100vh;
+}
+
+.header .menu {
+  padding-top: 50px;
+  margin-bottom: 236px;
+}
+
+.menu__item {
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--white);
+}
+
+.menu__item-current {
+  text-decoration: underline;
+  color: var(--second-accent);
+}
+
+.menu__list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .header {
+    background-image: url(../img/header-bg@2x.webp);
+  }
 }
