@@ -1,0 +1,51 @@
+:root {
+  --bg-color: #0e0e0e;
+  --accent: #600e09;
+  --second-accent: #85ccdc;
+  --white: #ffffff;
+}
+
+/* ! common styles */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto Condensed", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--white);
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: transparent;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 100px;
+}
+
