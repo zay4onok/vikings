@@ -141,3 +141,34 @@ button {
     background-image: url(../img/header-bg@2x.webp);
   }
 }
+
+@media only screen and (max-width: 900px) {
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+  .menu__list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    justify-content: start;
+    background-color: var(--bg-color);
+    width: 250px;
+    height: 100%;
+    padding: 100px 50px 0;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 300ms;
+  }
+  .menu__list.menu__list--active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .menu {
+    padding-top: 20px;
+  }
+  .header__btn {
+    display: block;
+  }
+}
