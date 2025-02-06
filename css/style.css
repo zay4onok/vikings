@@ -134,6 +134,38 @@ button {
   transform: translateY(-50%);
 }
 
+/* ! ABOUT */
+
+.title {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.about__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.about__item-title {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.about__info {
+  max-width: 775px;
+}
+
+.about__info-text:not(:last-child) {
+  margin-bottom: 25px;
+}
+
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
