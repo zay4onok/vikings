@@ -52,10 +52,6 @@ button {
   margin: 0 auto;
 }
 
-.section {
-  margin-bottom: 100px;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -68,11 +64,15 @@ button {
   white-space: nowrap;
 }
 
+.section {
+  margin-bottom: 100px;
+}
+
 /* ! HEADER */
 
 .header {
   background: url(../img/header-bg.webp) no-repeat top / cover;
-  height: 100vh;
+  height: 1080px;
 }
 
 .menu {
