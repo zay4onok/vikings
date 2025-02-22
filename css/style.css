@@ -166,6 +166,39 @@ button {
   margin-bottom: 25px;
 }
 
+/* ! VIDEO */
+
+.video {
+  background: url(../img/video-bg.webp) no-repeat;
+}
+
+.video__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin-left: 960px;
+}
+
+.video__title {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 84px;
+  color: var(--second-accent);
+}
+
+.video__title span {
+  margin-left: 250px;
+}
+
+.video__text {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--white);
+}
+
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
