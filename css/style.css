@@ -169,7 +169,7 @@ button {
 /* ! VIDEO */
 
 .video {
-  background: url(../img/video-bg.webp) no-repeat;
+  background: url(../img/video-bg.webp) no-repeat center / cover;
 }
 
 .video__container {
@@ -204,6 +204,139 @@ button {
   (min-resolution: 2dppx) {
   .header {
     background-image: url(../img/header-bg@2x.webp);
+  }
+  .video {
+    background: url(../img/video-bg@2x.webp) no-repeat center / cover;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .video__container {
+    margin-left: 760px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .video__container {
+    margin-left: 660px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .video__title {
+    font-size: 62px;
+    line-height: 74px;
+  }
+  .video__title span {
+    margin-left: 200px;
+  }
+  .video__text-img {
+    width: 75px;
+    height: 75px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .video__container {
+    margin-left: 560px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .video__title {
+    font-size: 52px;
+    line-height: 64px;
+  }
+  .video__title span {
+    margin-left: 175px;
+  }
+  .video__text-img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .video__container {
+    margin-left: 460px;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .video__title {
+    font-size: 42px;
+    line-height: 54px;
+  }
+  .video__title span {
+    margin-left: 140px;
+  }
+  .video__text-img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .video__container {
+    margin-left: 360px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .video__title {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .video__title span {
+    margin-left: 110px;
+  }
+  .video__text-img {
+    width: 50px;
+    height: 50px;
+  }
+  .video__text {
+    font-size: 16px;
+  }
+  .video__container {
+    margin-left: 350px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .video__title {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .video__title span {
+    margin-left: 75px;
+  }
+  .video__text-img {
+    width: 30px;
+    height: 30px;
+  }
+  .video__text {
+    font-size: 12px;
+  }
+  .video__container {
+    margin-left: 300px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .video__container {
+    margin-left: 200px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .video__container {
+    margin-left: 150px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .video__container {
+    margin-left: 130px;
   }
 }
 
