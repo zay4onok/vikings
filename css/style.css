@@ -136,6 +136,10 @@ button {
 
 /* ! ABOUT */
 
+.about .container {
+  padding: 0 10px;
+}
+
 .title {
   font-size: 36px;
   line-height: 42px;
