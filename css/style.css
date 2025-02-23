@@ -47,7 +47,8 @@ button {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1220px;
+  padding: 0 10px;
   min-width: 320px;
   margin: 0 auto;
 }
@@ -136,10 +137,6 @@ button {
 
 /* ! ABOUT */
 
-.about .container {
-  padding: 0 10px;
-}
-
 .title {
   font-size: 36px;
   line-height: 42px;
@@ -211,6 +208,7 @@ button {
 
 .seasons__list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 100px 75px;
   counter-reset: counter;
