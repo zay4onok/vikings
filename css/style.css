@@ -238,9 +238,17 @@ button {
 
 /* ! HEROES */
 
-.heroes__hero {
+.slick-initialized .slick-slide {
   display: flex;
   gap: 75px;
+}
+
+.heroes__list {
+  margin: 0 -37.5px;
+}
+
+.heroes__hero {
+  margin: 0 37.5px;
 }
 
 .heroes__hero-info {
@@ -258,6 +266,23 @@ button {
 
 .heroes__hero-text:not(:last-child) {
   margin-bottom: 25px;
+}
+
+.slick-next,
+.slick-prev {
+  position: absolute;
+  cursor: pointer;
+  padding: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slick-next {
+  right: -50px;
+}
+
+.slick-prev {
+  left: -50px;
 }
 
 @media (min-device-pixel-ratio: 2),
