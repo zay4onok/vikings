@@ -236,6 +236,30 @@ button {
   content: counter(counter);
 }
 
+/* ! HEROES */
+
+.heroes__hero {
+  display: flex;
+  gap: 75px;
+}
+
+.heroes__hero-info {
+  max-width: 350px;
+}
+
+.heroes__hero-name {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 72px;
+  line-height: 84px;
+  color: var(--second-accent);
+  margin-bottom: 44px;
+}
+
+.heroes__hero-text:not(:last-child) {
+  margin-bottom: 25px;
+}
+
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
