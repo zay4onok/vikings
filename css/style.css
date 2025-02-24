@@ -313,16 +313,17 @@ button {
     align-items: center;
     text-align: center;
   }
-  .heroes__list {
-    max-width: 775px;
-    margin: 0 auto;
+  .slick-next,
+  .slick-prev {
+    top: 62%;
   }
+
   .slick-next {
-    right: -150px;
+    right: 50px;
   }
 
   .slick-prev {
-    left: -150px;
+    left: 50px;
   }
 }
 
@@ -384,6 +385,14 @@ button {
   .video__container {
     margin-left: 360px;
   }
+  .heroes__hero-img {
+    width: 100%;
+    height: auto;
+  }
+  .slick-next,
+  .slick-prev {
+    top: 62%;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -403,6 +412,10 @@ button {
   }
   .video__container {
     margin-left: 350px;
+  }
+  .slick-next,
+  .slick-prev {
+    top: 58%;
   }
 }
 
@@ -424,11 +437,19 @@ button {
   .video__container {
     margin-left: 300px;
   }
+  .slick-next,
+  .slick-prev {
+    top: 55%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   .video__container {
     margin-left: 200px;
+  }
+  .slick-next,
+  .slick-prev {
+    top: 52%;
   }
 }
 
@@ -436,11 +457,27 @@ button {
   .video__container {
     margin-left: 150px;
   }
+  .slick-next,
+  .slick-prev {
+    top: 50%;
+  }
+  .heroes__hero-name {
+    font-size: 67px;
+    line-height: 79px;
+  }
 }
 
 @media only screen and (max-width: 350px) {
   .video__container {
     margin-left: 130px;
+  }
+  .slick-next,
+  .slick-prev {
+    top: 45%;
+  }
+  .heroes__hero-name {
+    font-size: 62px;
+    line-height: 74px;
   }
 }
 
@@ -509,5 +546,12 @@ button {
   .seasons__img {
     width: 100%;
     height: auto;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .slick-next,
+  .slick-prev {
+    top: 43%;
   }
 }
