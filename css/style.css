@@ -306,6 +306,24 @@ button {
   .video__container {
     margin-left: 660px;
   }
+  .slick-initialized .slick-slide {
+    display: flex;
+    gap: 75px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .heroes__list {
+    max-width: 775px;
+    margin: 0 auto;
+  }
+  .slick-next {
+    right: -150px;
+  }
+
+  .slick-prev {
+    left: -150px;
+  }
 }
 
 @media only screen and (max-width: 1250px) {
